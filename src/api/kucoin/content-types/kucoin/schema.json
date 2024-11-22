@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kucoins",
+  "info": {
+    "singularName": "kucoin",
+    "pluralName": "kucoins",
+    "displayName": "Kucoin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "symbol": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "baseCurrency": {
+      "type": "text"
+    },
+    "quoteCurrency": {
+      "type": "text"
+    },
+    "feeCurrency": {
+      "type": "text"
+    },
+    "market": {
+      "type": "text"
+    },
+    "priceIncrement": {
+      "type": "decimal"
+    },
+    "amountIncrement": {
+      "type": "decimal"
+    },
+    "minOrderAmount": {
+      "type": "decimal"
+    },
+    "maxOrderAmount": {
+      "type": "decimal"
+    },
+    "isDisabled": {
+      "type": "boolean"
+    },
+    "sort": {
+      "type": "integer"
+    },
+    "isMarginEnabled": {
+      "type": "boolean"
+    }
+  }
+}

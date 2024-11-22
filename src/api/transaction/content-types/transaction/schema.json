@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "transaction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transactionHash": {
+      "type": "text"
+    },
+    "walletAddress": {
+      "type": "text"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "fromCurrency": {
+      "type": "text"
+    },
+    "toCurrency": {
+      "type": "text"
+    },
+    "timestamp": {
+      "type": "date"
+    },
+    "gasFee": {
+      "type": "decimal"
+    }
+  }
+}
